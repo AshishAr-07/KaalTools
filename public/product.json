@@ -1,7 +1,7 @@
 [
   {
     "title": "Motor Grader",
-    "category": "Earthmoving Equipment ",
+    "category": "Earthmoving Equipment",
     "image": "/mg.png",
     "additionalimage": ["/rr.png", "/mg.png"],
     "saleprice": "3500000",
@@ -11,7 +11,7 @@
   },
   {
     "title": "Road Roller",
-    "category": " Road Surfacing Equipment ",
+    "category": "Road Surfacing Equipment",
     "image": "/rr.png",
     "additionalimage": ["/rr.png", "/rr.png"],
     "saleprice": "3500000",
