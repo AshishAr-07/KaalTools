@@ -42,14 +42,14 @@ export default function ProductPage() {
                 <Link
                     href={`/product/${product.title}`}
                     key={product?.title}
-                    className="border rounded-lg p-4 hover:shadow-lg transition-shadow"
+                    className="border rounded-lg p-2  hover:shadow-lg transition-shadow"
                 >
-                    <div className='flex flex-col '>
-                        <div className='relative border rounded  hover:shadow-md'>
-                            <Image className="w-full h-full object-cover" alt={product.title} width={600} height={500} src={product.image} />
+                    <div className='flex flex-col pb-3 '>
+                        <div className='relative border hover:shadow-md'>
+                            <Image className="w-full h-full  object-cover" alt={product.title} width={600} height={500} src={product.image} />
                         </div>
-                        <h2 className='pt-5 text-lg px-4'>{product.title}</h2>
-                        <h2 className='pt-2 text-lg px-4'>₹{product.price}</h2>
+                        <h2 className='pt-5 px-4'>{product.title}</h2>
+                        <h2 className='pt-2 px-4'>₹{product.price}</h2>
                     </div>
                 </Link>
             
@@ -59,9 +59,9 @@ export default function ProductPage() {
     return (
         <>
 
-            <div className="w-full flex gap-8">
+            <div className="w-full flex gap-4 sm:gap-8">
                 <section className="lg:w-1/5 w-2/5  flex  border-r flex-1  items-center flex-col">
-                    <h1 className="md:text-2xl text-lg border-y border-gray-200 flex pl-4  xl:pl-12 w-full sm:justify-start justify-center  py-4">Categories:</h1>
+                    <h1 className="md:text-2xl text-lg border-b border-gray-200 flex pl-4  xl:pl-12 w-full sm:justify-start justify-center  py-4">Categories:</h1>
                     <button
                         onClick={() => handleCategory("all")}
                         className={`flex md:text-md text-sm  px-4  xl:pl-12  sm:justify-start justify-center  py-2 w-full hover:bg-[var(--lightcolor)] ${activeCategory === 'all' ? 'bg-[var(--lightcolor)]' : ''}`}
@@ -87,7 +87,7 @@ export default function ProductPage() {
                         WORKHOLDING 
                     </button>
                 </section>
-                <section className="lg:w-4/5 w-3/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8  gap-4">
+                <section className="lg:w-4/5 w-3/5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8 sm:px-8 gap-4">
                     {renderProducts()}
                 </section>
             </div>
