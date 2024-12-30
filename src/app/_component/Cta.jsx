@@ -5,16 +5,16 @@ import Link from 'next/link';
 const Cta = () => {
   return (
     <section className="bg-[var(--lightcolor)] py-16 px-4">
-      <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-12">
+      <div className="container mx-auto max-w-6xl flex flex-col md:flex-row md:gap-24 items-center justify-between space-y-6 md:space-y-0 md:space-x-12">
         <div className="flex-1 text-white">
           <div className="flex items-center mb-4">
 
-            <h2 className="text-4xl text-black font-extrabold tracking-tight">
-              Engineered for Excellence, Built for Roads.
+            <h2 className="lg:text-3xl text-2xl text-justify text-black font-extrabold tracking-tight">
+            If you wish to become one of our strategicpartners to distribute our products we would love to hear from you.
             </h2>
           </div>
           <p className="text-lg text-justify text-black max-w-xl leading-relaxed">
-            Your one-stop destination for high-quality road construction machinery. We offer durable, efficient, and innovative equipment to power your projects and ensure seamless construction, paving the way for a better tomorrow.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
         </div>
 
