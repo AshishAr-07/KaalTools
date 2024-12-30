@@ -18,8 +18,15 @@ export const ProductSlice = createSlice({
                 ? state.allProducts
                 : state.allProducts.filter((product) => product.category === category);
         },
+        filtersubcategory: (state, action) => {
+            const subcategory = action.payload;
+            state.filteredProducts = subcategory === 'all'
+                ? state.allProducts
+                : state.allProducts.filter((product) => product.subcategory === subcategory);
+        },
+
     }
 });
 
-export const { setProducts, filteredProducts } = ProductSlice.actions;
+export const { setProducts, filteredProducts,filtersubcategory } = ProductSlice.actions;
 export default ProductSlice.reducer;

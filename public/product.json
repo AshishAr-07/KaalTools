@@ -2,6 +2,7 @@
   {
     "title": "Motor Grader",
     "category": "Earthmoving Equipment",
+    "subcategory": "Motor Grader",
     "image": "/mg.png",
     "additionalimage": ["/rr.png", "/mg.png"],
     "saleprice": "3500000",
@@ -13,6 +14,7 @@
     "title": "Road Roller",
     "category": "Road Surfacing Equipment",
     "image": "/rr.png",
+    "subcategory": "Motor Grader",
     "additionalimage": ["/rr.png", "/rr.png"],
     "saleprice": "3500000",
     "price": "4500000",
@@ -22,6 +24,7 @@
   {
     "title": "Dump Truck",
     "category": "Material Handling Equipment",
+    "subcategory": "Motor Grader",
     "image": "/dt.png",
     "additionalimage": ["/dt.png", "/dt.png"],
     "saleprice": "3500000",
@@ -32,6 +35,7 @@
   {
     "title": "Forklift Truck",
     "category": "Material Handling Equipment",
+    "subcategory":"Forklift Truck",
     "image": "/tl.png",
     "additionalimage": ["/tl.png", "/tl.png"],
     "saleprice": "3500000",
@@ -42,6 +46,7 @@
   {
     "title": "Truck Crane",
     "category": "Material Handling Equipment",
+    "subcategory":"Forklift Truck",
     "image": "/crn.png",
     "additionalimage": ["/crn.png", "/crn.png"],
     "saleprice": "3500000",
@@ -52,6 +57,7 @@
   {
     "title": "Concrete Mixer",
     "category": "Concrete Equipment",
+    "subcategory": "Motor Grader",
     "image": "/cm.png",
     "additionalimage": ["/cm.png", "/cm.png"],
     "saleprice": "3500000",
