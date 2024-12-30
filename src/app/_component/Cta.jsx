@@ -13,7 +13,7 @@ const Cta = () => {
             If you wish to become one of our strategicpartners to distribute our products we would love to hear from you.
             </h2>
           </div>
-          <p className="text-lg text-justify text-black max-w-xl leading-relaxed">
+          <p className=" text-justify text-gray-600 max-w-xl leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
         </div>
