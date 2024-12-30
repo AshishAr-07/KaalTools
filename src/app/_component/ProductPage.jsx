@@ -104,14 +104,14 @@ export default function ProductPage() {
                             >
                                 <span>{item.name}</span>
                                 {item.subcategories && (
-                                    <div className={`transform transition-transform duration-300 ${openCategory === item.name ? 'rotate-180' : ''}`}>
+                                    <div className={`transform transition-transform duration-300 ${openCategory === item.activeCategory ? 'rotate-180' : ''}`}>
                                         <ChevronDown className="h-4 w-4" />
                                     </div>
                                 )}
                             </button>
                             {item.subcategories && (
                                 <div
-                                    className={`overflow-hidden transition-all duration-300 ease-in-out ${openCategory === item.name ? 'max-h-48' : 'max-h-0'}`}
+                                    className={`overflow-hidden transition-all duration-300 ease-in-out ${openCategory === item.activeCategory ? 'max-h-48' : 'max-h-0'}`}
                                 >
                                     <div className="bg-gray-50">
                                         {item.subcategories.map((subcategory, subIndex) => (
