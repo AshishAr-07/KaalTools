@@ -59,8 +59,8 @@ export default function ProductPage() {
                 className="border rounded-lg p-2  hover:shadow-lg transition-shadow"
             >
                 <div className='flex flex-col pb-3 '>
-                    <div className='relative border hover:shadow-md'>
-                        <Image className="w-full h-full  object-cover" alt={product.title} width={600} height={500} src={product.image} />
+                    <div className='relative border-b'>
+                        <Image className="w-full h-full  object-cover" alt={product.title} width={300} height={300} src={product.image} />
                     </div>
                     <h2 className='pt-5 px-4'>{product.title}</h2>
                     <h2 className='pt-2 px-4'>₹{product.price}</h2>

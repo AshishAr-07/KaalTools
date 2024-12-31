@@ -42,7 +42,7 @@ export default function Footer() {
 
 
                 </div>
-                <div className='w-full mt-8 text-lg py-4 border-t border-black'>©Kaal Tools 2024 | All Rights Reserved | Designed by <Link href="https://desirediv.com/" ><span className='text-blue-600'>Desire Div</span></Link> </div>
+                <div className='w-full mt-8 text-lg py-4 border-t border-black'>©Kaal Tools 2024 | All Rights Reserved | Designed by <Link href="https://xcelb2b.com/" ><span className='text-blue-600'>Xcel B2B</span></Link> </div>
             </Wrapper>
         </div>
     )
