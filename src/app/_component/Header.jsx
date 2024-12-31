@@ -14,14 +14,14 @@ export default function Header() {
     },[])
 
     return (
-        <header className='w-full bg-[var(--lightcolor)] py-3  sticky top-0 left-0 right-0 z-50 '>
+        <header className='w-full bg-[var(--lightcolor)]   sticky top-0 left-0 right-0 z-50 '>
             <section className='md:max-w-screen-xl max-w-screen-lg  mx-auto py-2 lg:px-0 px-4'>
                 <div className='flex justify-between items-center'>
                     <Link href='/'>
-                        <Image src='/logo.webp' width={170} height={60} alt='logo' />
+                        <Image src='/logo.webp' width={220} height={80} alt='logo' />
                     </Link>
                     <nav className='md:flex hidden '>
-                        <ul className='flex  text-lg font-extralight gap-5'>
+                        <ul className='flex  text-lg font-extralight gap-10'>
                             <Link href="/" className='hover:underline hover:text-[var(--maincolor)] ' ><li>Home </li></Link>
                             <Link href="/about" className='hover:underline hover:text-[var(--maincolor)]  ' ><li>About </li></Link>
                             <Link href="/product" className='hover:underline hover:text-[var(--maincolor)] ' ><li>Product </li></Link>

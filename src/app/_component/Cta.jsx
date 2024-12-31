@@ -10,7 +10,7 @@ const Cta = () => {
           <div className="flex items-center mb-4">
 
             <h2 className="lg:text-3xl text-2xl text-justify text-black font-extrabold tracking-tight">
-            If you wish to become one of our strategicpartners to distribute our products we would love to hear from you.
+            If you wish to become one of our strategic partners to distribute our products we would love to hear from you.
             </h2>
           </div>
           <p className=" text-justify text-gray-600 max-w-xl leading-relaxed">

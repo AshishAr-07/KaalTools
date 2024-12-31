@@ -10,7 +10,7 @@ export default function Whychoose() {
     const features = [
         {
           title: 'Quality',
-          description: 'We provide machinery that exceeds industry standards.',
+          description: 'We provide tools that exceeds project standards.',
           icon: BsPatchCheck ,
         },
         {
@@ -20,7 +20,7 @@ export default function Whychoose() {
         },
         {
           title: 'Reliability',
-          description: 'We provide machines that are built to last and perform under all conditions.',
+          description: 'We provide tools that are built to last and perform under all conditions.',
           icon: IoShieldCheckmarkOutline ,
         },
         {
@@ -71,10 +71,10 @@ export default function Whychoose() {
                     <div className="w-full lg:w-1/2 mb-8 lg:mb-0 flex justify-center">
                         <div className="w-full flex justify-center ">
                             <Image
-                                src='/rr.png'
+                                src='/msn.webp'
                                 alt='why choose us illustration'
-                                width={500}
-                                height={500}
+                                width={600}
+                                height={400}
                                 priority
                             />
                         </div>

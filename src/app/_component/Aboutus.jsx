@@ -19,8 +19,8 @@ export default function Aboutus({ activepage = "about" }) {
 
                     </section>
                     <section className='relative flex items-center'>
-                        <Image alt='about image' height={400} width={600} src='/cm.png' />
-                        <div className={`p-8 absolute bg-[var(--maincolor)] rounded-lg text-white text-xl left-2 bottom-[-80px]   ${activepage === "about" ? 'hidden' : 'flex lg:flex md:hidden lg:bottom-2 lg:left-[-80px]'}`}>
+                        <Image alt='about image' height={400} width={600} src='/abs.webp' />
+                        <div className={`p-6 absolute bg-[var(--maincolor)] rounded-lg text-white text-lg left-2 bottom-[-80px]   ${activepage === "about" ? 'hidden' : 'flex lg:flex md:hidden lg:bottom-2 lg:left-[-80px]'}`}>
                             15+ Years <br />Experience
                         </div>
                     </section>
