@@ -3,6 +3,7 @@ import React, { useCallback, useState } from 'react'
 import Link from 'next/link'
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import Wrapper from './Wrapper';
+import Image from 'next/image';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -17,10 +18,10 @@ export default function Header() {
             <section className='md:max-w-screen-xl max-w-screen-lg  mx-auto py-2 lg:px-0 px-4'>
                 <div className='flex justify-between items-center'>
                     <Link href='/'>
-                        <h1 className='text-2xl'>Mech<span className=' text-[var(--maincolor)]'>X</span></h1>
+                        <Image src='/logo.webp' width={170} height={60} alt='logo' />
                     </Link>
                     <nav className='md:flex hidden '>
-                        <ul className='flex  text-lg gap-5'>
+                        <ul className='flex  text-lg font-extralight gap-5'>
                             <Link href="/" className='hover:underline hover:text-[var(--maincolor)] ' ><li>Home </li></Link>
                             <Link href="/about" className='hover:underline hover:text-[var(--maincolor)]  ' ><li>About </li></Link>
                             <Link href="/product" className='hover:underline hover:text-[var(--maincolor)] ' ><li>Product </li></Link>

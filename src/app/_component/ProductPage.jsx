@@ -77,12 +77,12 @@ export default function ProductPage() {
         {
             name: "LATHE ACCESSORIES",
             activeCategory: "Earthmoving Equipment",
-            subcategories: ["Motor Grader", "Motor Grader", "Motor Grader"]
+            subcategories: ["Motor Grader", "KNURLING TOOL HOLDERS", "TURNING TOOL HOLDERS"]
         },
         {
             name: "MILLING ACCESSORIES",
             activeCategory: "Material Handling Equipment",
-            subcategories: ["Forklift Truck", "Forklift Truck", "Forklift Truck"]
+            subcategories: ["Forklift Truck", "KNURLING TOOL HOLDERS", "TURNING TOOL HOLDERS"]
         },
         {
             name: "Construction Equipment",

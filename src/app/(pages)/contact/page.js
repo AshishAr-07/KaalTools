@@ -2,7 +2,8 @@
 
 import React, { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import { IoLocationOutline,IoMailOutline } from "react-icons/io5";
+import { CiLocationOn } from "react-icons/ci";
+import { CiMail } from "react-icons/ci";
 import { PiPhoneThin } from "react-icons/pi";
 import Wrapper from "@/app/_component/Wrapper";
 
@@ -10,17 +11,17 @@ const contactMethods = [
   {
     icon: PiPhoneThin,
     title: "Phone",
-    info: "+91-9870175083",
+    info: "+91 88001 99820",
   },
   {
-    icon: IoMailOutline,
+    icon: CiMail,
     title: "Mail",
     info: "hello@domain.com",
   },
   {
-    icon: IoLocationOutline,
+    icon: CiLocationOn,
     title: "Address",
-    info: "641, Satya the Hive",
+    info: "Plot No.164, Udyog Vihar Phase-6, Gurugram - 122004, Haryana (India)",
   },
 ];
 
