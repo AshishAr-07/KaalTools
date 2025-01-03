@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <header className='w-full bg-white  sticky top-0 left-0 right-0 z-50 '>
             <div className='w-full hidden md:block bg-gray-900 text-white'>
-                <div className='max-w-screen-xl  mx-auto px-4'>
+                <div className='max-w-screen-xl py-2  mx-auto px-4'>
                     <div className='flex justify-end items-center gap-4 py-3'>
                         <div className='flex items-center gap-2'>
                             <BsTelephone size={18} />
@@ -31,7 +31,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <section className='md:max-w-screen-xl max-w-screen-lg  mx-auto  lg:px-0 px-4'>
+            <section className='md:max-w-screen-xl max-w-screen-lg  mx-auto py-2  lg:px-0 px-4'>
 
                 <div className='flex justify-between items-center'>
                     <Link href='/'>
