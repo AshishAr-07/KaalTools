@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <div className='w-full bg-[var(--lightcolor)]'>
+        <div className='w-full bg-gray-100'>
             <Wrapper className='pb-2'>
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-12 py-2 '>
                     <section className='flex flex-col gap-2'>
