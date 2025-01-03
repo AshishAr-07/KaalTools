@@ -6,7 +6,7 @@ import Whychoose from "./_component/Whychoose";
 import Cta from "./_component/Cta";
 import Testimonials from "./_component/Testinomials";
 import NewProducts from "./_component/NewProducts";
-import Counter from "./_component/COunter";
+import Counter from "./_component/Counter";
 
 const items = [
   {
