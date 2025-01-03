@@ -1,10 +1,10 @@
 import React from 'react';
-import { ArrowRight, Cog } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const Cta = () => {
   return (
-    <section className="bg-[var(--lightcolor)] py-16 px-4">
+    <section className="bg-gray-100 py-16 px-4">
       <div className="container mx-auto max-w-6xl flex flex-col md:flex-row md:gap-24 items-center justify-between space-y-6 md:space-y-0 md:space-x-12">
         <div className="flex-1 text-white">
           <div className="flex items-center mb-4">
