@@ -16,18 +16,23 @@ export default function Header() {
     }, [])
 
     return (
-        <header className='w-full bg-[var(--lightcolor)]   sticky top-0 left-0 right-0 z-50 '>
-            <section className='md:max-w-screen-xl max-w-screen-lg  mx-auto py-2 lg:px-0 px-4'>
-                <div className='w-full flex justify-end items-end gap-4'>
-                    <div className='flex items-center pt-2 gap-2'>
-                        <BsTelephone size={18} />
-                        <p>+91 8800199820</p>
-                    </div>
-                    <div className='flex items-center gap-2'>
-                        <IoMailOutline size={22} />
-                        <p>sales@kaaltools.com</p>
+        <header className='w-full bg-white  sticky top-0 left-0 right-0 z-50 '>
+            <div className='w-full hidden md:block bg-gray-900 text-white'>
+                <div className='max-w-screen-xl  mx-auto px-4'>
+                    <div className='flex justify-end items-center gap-4 py-3'>
+                        <div className='flex items-center gap-2'>
+                            <BsTelephone size={18} />
+                            <p>+91 8800199820</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <IoMailOutline size={22} />
+                            <p>sales@kaaltools.com</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <section className='md:max-w-screen-xl max-w-screen-lg  mx-auto  lg:px-0 px-4'>
+
                 <div className='flex justify-between items-center'>
                     <Link href='/'>
                         <Image src='/logo.webp' width={220} height={80} alt='logo' />
