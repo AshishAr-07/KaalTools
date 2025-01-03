@@ -42,7 +42,7 @@ export default function Whychoose() {
                 </div>
 
                 {/* Content Container */}
-                <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 ">
+                <div className="flex flex-col-reverse lg:flex-row-reverse items-center justify-between gap-8 ">
                     {/* Features Grid */}
                     <div className="w-full lg:w-1/2 grid grid-cols-1 cursor-pointer sm:grid-cols-2 gap-6">
                         {features.map((feature, index) => (

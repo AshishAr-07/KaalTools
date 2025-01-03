@@ -58,8 +58,8 @@ export default function ProductPage() {
             <Image
               src={mainImage || "/rr.png"}
               alt={product?.title || "Product Image"}
-              height={500}
-              width={600}
+              height={300}
+              width={300}
               priority={true}
             />
           </div>

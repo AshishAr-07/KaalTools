@@ -11,7 +11,7 @@ export default function Product({ activepage = "product" }) {
 
   const [Data, setData] = useState([])
   const [Loading, setLoading] = useState(true)
-  const FeaturedProduct = activepage == "homepage" ? Data.slice(0, 4) : Data;
+  const FeaturedProduct = activepage == "homepage" ? Data.slice(0, 8) : Data;
   useEffect(() => {
     const Products = async () => {
       const data = await fetchProducts();
